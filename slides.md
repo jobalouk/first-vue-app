@@ -1,25 +1,23 @@
-SLIDES
-
 Vue vs React
+
 Différences fondamentales
 Je vais surtout faire le tour de l'API
 Et j'ai une connaissance naive du framework
 
 
-Slide 1 : Point communs
+Part 1 : Point communs
 
 Titre : Points communs
 
 Les utilisent un DOM VIRTUEL
 Fournissent des composants de vue réactifs et composables
-Restent concentrés sur le cœur de la bibliothèque
-En déléguant le routage et la gestion d’état à des bibliothèques connexes
+Restent concentrés sur le cœur de la bibliothèque en déléguant le routage et la gestion d’état à des bibliothèques connexes(???)
 
 
-
-Slide 2 : Optimisation
+Part 2 : Optimisation
 
 React
+
 Avec React, quand l’état d’un composant change, cela enclenche de nouveau le rendu de tous ses sous-composants,
 en partant de ce composant comme racine
 
@@ -32,36 +30,36 @@ Mais utiliser ces  méthodes présupposent que le rendu d'un composant soit dét
 Vue
 
 Au rendu les dépendances d'un composant sont trackées, il sait quels componsants ont besoin d'être
-mise à jour. Chaque composant peut être considéré comme ayant déjà `shouldComponentUpdate`
+mise à jour. Chaque composant peut être considéré comme ayant déjà `shouldComponentUpdate`(??)
 
 
-Slide 3 : JSX vs template
+Part 3 : JSX vs template
 
-React,
-JSX
+React, JSX
+
 Utiliser du javascript dans les vues.
 Les linter et les outils d'autocompletion plus avancés que les templates de Vues
 
 
-Vue,
-template
+Vue, template
 
-Vue possède des fonctions de rendus et un support pour le JSX
+Vue possède des fonctions de rendus et un support pour le JSX.
+Par défaut :
+- Template basé sur du html
+- La doc nous dit que les dév sont plus productifs avec du html
+- Plus simple à migrer
+- Plus simple pour les designer et les dév avec moins d'éxpérience
+- Et on peut utiliser des préprocesseurs
 
-Mais par défaut, template basé sur du html
-La doc nous dit que les dev sont plus productifs avec du html
-Plus simple à migrer
-Plus simple pour les designer et les dév avec moins d'éxpérience
-Et on peut utiliser des préprocesseurs
 
-
-Slide 4 : CSS à portée limitée au composant
+Part 4 : CSS à portée limitée au composant
 
 React
 
 Limiter la portée du css Dans React est souvent fait par des solutions
 CSS-IN-JS.
 Trade-off: un bundle plus lourd mais une expérience de dév bien meilleur.
+
 
 Vue
 
@@ -80,28 +78,35 @@ dans un composant monofichier
 `scoped` encapsule automatiquement ce CSS dans votre composant en ajoutant un unique attribut.
 
 
-Slide 5 : Utilisation avancée
+Part 5 : Utilisation avancée
 
 Redux avec Vue
+
 Vuex avec Vue (inspiré par Elm(?)), apparement offre une expérience de dév supérieur
 
 
 Vue
+
 Les state manager accompagnant Vue et les lib de routage sont toutes officiellements supportées et
 mises à jour avec le coeur de la bibliothèque.
 
-React
-React laisse cette partie à la communauté,
-créant un écosystème plus fragmenté,
-mais l’écosystème de React est considérablement plus riche que celui de Vue (c'est la doc de Vue qui le dit)
-[Sidenote:
-React sera de toute façon plus mature que Vue pour l'écosysteme.
-]
 
+React
+
+React laisse cette partie à la communauté, créant un écosystème plus fragmenté.
+Mais l’écosystème de React est considérablement plus riche que celui de Vue (c'est la doc de Vue qui le dit)
+[Sidenote : React sera de toute façon plus mature que Vue pour l'écosysteme]
+
+
+CLI
 
 Vue et React ont un outil de génération de projet en CLI avec quelques particularités
 que je ne vais pas lister parce que pas encore testées.
 
+`vue init webpack app-name`
+
+
+Snippets
 
 Création d'un composant
 `Vue.component('button-counter', {
