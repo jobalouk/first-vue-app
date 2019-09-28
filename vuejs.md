@@ -3,6 +3,8 @@ Vue vs React
 Différences fondamentales
 Je vais surtout faire le tour de l'API
 Et j'ai une connaissance naive du framework
+Des framework qui font plus ou moins la même chose
+Du state, des props, un rendu reactif mais de vrai observer pour vue ?
 
 
 Part 1 : Point communs
