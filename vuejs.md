@@ -29,6 +29,11 @@ Un peu de détail sur le dom virtuel de vuejs
 __La réactivité dans Vue.js__
 Un peu de détail sur la réactivé dans vuejs
 
+__La base__ une instance de vue avec ses opts
+
+Je parle des différentes technique pour créer un composant?
+On peut improviser dessus en montrant du code
+
 Gestion de l'état dans Vue et React
 
 React
