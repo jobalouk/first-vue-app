@@ -30,6 +30,10 @@ __La réactivité dans Vue.js__
 Un peu de détail sur la réactivé dans vuejs
 
 __La base__ une instance de vue avec ses opts
+* création local
+* création global
+* composant mono fichier
+* instance de vue
 
 Je parle des différentes technique pour créer un composant?
 On peut improviser dessus en montrant du code
