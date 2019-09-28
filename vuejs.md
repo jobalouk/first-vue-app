@@ -13,6 +13,16 @@ Les utilisent un DOM VIRTUEL
 Fournissent des composants de vue réactifs et composables
 Restent concentrés sur le cœur de la bibliothèque en déléguant le routage et la gestion d’état à des bibliothèques connexes(???)
 
+__Instance de vuejs__
+`model -> data`
+`view model -> new Vue()`
+`view -> <component>blablabla</composant`
+
+__Truc que je peux montrer__
+* Montrer le CLI avec ses opts
+* Cloner un projet que j'ai fait
+* Montrer mon projet
+
 __Le DOM de vuejs__
 Un peu de détail sur le dom virtuel de vuejs
 
