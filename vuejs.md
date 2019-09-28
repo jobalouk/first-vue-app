@@ -20,8 +20,12 @@ React
 `this.state` ou state 'functionnel' avec les hooks
 
 Vue.js
+La single source of truth d'un composant dans Vue est la prop `data`
+
 `data` quand on fait `new Vue()`
+
 `data` est une fonction quand on crée un composant monofichier...
+La propriété du composant `data` doit être une fonction, afin que chaque instance puisse conserver une copie indépendante de l’objet retourné
 
 Questions :
 Un composant monofichier est un composant fonctionnel?
