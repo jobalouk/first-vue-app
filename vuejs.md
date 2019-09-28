@@ -14,6 +14,19 @@ Fournissent des composants de vue réactifs et composables
 Restent concentrés sur le cœur de la bibliothèque en déléguant le routage et la gestion d’état à des bibliothèques connexes(???)
 
 
+Gestion de l'état dans Vue et React
+
+React
+`this.state` ou state 'functionnel' avec les hooks
+
+Vue.js
+`data` quand on fait `new Vue()`
+`data` est une fonction quand on crée un composant monofichier...
+
+Questions :
+Un composant monofichier est un composant fonctionnel?
+
+
 Part 2 : Optimisation
 
 React
