@@ -13,6 +13,8 @@ Les utilisent un DOM VIRTUEL
 Fournissent des composants de vue réactifs et composables
 Restent concentrés sur le cœur de la bibliothèque en déléguant le routage et la gestion d’état à des bibliothèques connexes(???)
 
+__La réactivité dans Vue.js__
+Un peu de détail sur la réactivé dans vuejs
 
 Gestion de l'état dans Vue et React
 
