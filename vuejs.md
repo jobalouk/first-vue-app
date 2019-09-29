@@ -4,8 +4,10 @@ __Plus de contenu__
 Les mixins
 Les interactions entre les composants
 Hooks de cycle de vie d’une instance
-Un aperçu de vuex (pas le temps d'essayer)
 Différentes instances de Vue?
+Un aperçu de vuex (pas le temps d'essayer)
+
+Tester tout ce qui est testable pendant la pres dans ma petite app de présentation
 
 quote from moi-même :
 l'expérience de dév a l'air plus fraiche sur vue que react, c'est chiant de devoir se demander quel composant va être re render ou pas avec react
