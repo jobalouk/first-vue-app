@@ -5,6 +5,7 @@ Les mixins
 Les interactions entre les composants
 Les hooks
 Un aperçu de vuex (pas le temps d'essayer)
+Différentes instances de Vue?
 
 quote from moi-même :
 l'expérience de dév a l'air plus fraiche sur vue que react, c'est chiant de devoir se demander quel composant va être re render ou pas avec react
