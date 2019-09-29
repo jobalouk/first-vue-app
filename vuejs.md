@@ -1,8 +1,6 @@
 Vuejs
 
 Différences fondamentales
-Je vais surtout faire le tour de l'API
-Et j'ai une connaissance naive du framework
 
 Installer le dev tool pour le montrer
 
