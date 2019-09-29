@@ -1,4 +1,4 @@
-Vue vs React
+Vuejs
 
 Différences fondamentales
 Je vais surtout faire le tour de l'API
