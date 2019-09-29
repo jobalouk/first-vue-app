@@ -3,7 +3,7 @@ Vuejs
 __Plus de contenu__
 Les mixins
 Les interactions entre les composants
-Les hooks
+Hooks de cycle de vie d’une instance
 Un aperçu de vuex (pas le temps d'essayer)
 Différentes instances de Vue?
 
