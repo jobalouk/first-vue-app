@@ -1,5 +1,10 @@
 Vuejs
 
+__Exemple de code__
+Un peu d'improvisation sur les exemples de la doc de Vue
+
+https://vuejs.org/v2/examples/
+
 Différences fondamentales
 
 Installer le dev tool pour le montrer
@@ -42,7 +47,7 @@ Utiliser `shouldComponentUpdate()` présupposent que le rendu d'un composant soi
 
 
 __Vue__
-Au rendu les dépendances d'un composant sont tracées, Vue sait quels sont les composants qui ont besoin d'être update. 
+Au rendu les dépendances d'un composant sont tracées, Vue sait quels sont les composants qui ont besoin d'être update.
 Chaque composant peut être considéré comme ayant déjà `shouldComponentUpdate`(??)
 * data
 * données reactives
@@ -68,4 +73,3 @@ __Vue__
 Vue et React ont un outil de génération de projet en CLI avec quelques particularités
 
 `vue init webpack app-name`
-
