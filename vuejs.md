@@ -1,5 +1,13 @@
 Vuejs
 
+__Plus de contenu__
+Les mixins
+Les interactions entre les composants
+Un aperçu de vuex (pas le temps d'essayer)
+
+quote from moi-même :
+l'expérience de dév a l'air plus fraiche sur vue que react, c'est chiant de devoir se demander quel composant va être re render ou pas avec react
+
 __Exemple de code__
 Un peu d'improvisation sur les exemples de la doc de Vue
 
