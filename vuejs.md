@@ -6,6 +6,9 @@ Et j'ai une connaissance naive du framework
 
 Installer le dev tool pour le montrer
 
+Comment les modifications sont tracées :
+https://fr.vuejs.org/v2/guide/reactivity.html
+
 
 
 Part 1 : Point communs
