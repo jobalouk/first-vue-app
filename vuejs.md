@@ -3,6 +3,7 @@ Vuejs
 __Plus de contenu__
 Les mixins
 Les interactions entre les composants
+Les hooks
 Un aperçu de vuex (pas le temps d'essayer)
 
 quote from moi-même :
