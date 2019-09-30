@@ -12,6 +12,13 @@ Tester tout ce qui est testable pendant la pres dans ma petite app de présentat
 quote from moi-même :
 l'expérience de dév a l'air plus fraiche sur vue que react, c'est chiant de devoir se demander quel composant va être re render ou pas avec react
 
+Potentionelle conclusion :
+Ajouter une slide sur l'histoire des deux projets
+Facebook vs Evan You (dév indépendant d'origin chinoise)
+
+L'importance de sa simplicité : un fichier avec son html, son css et son js.
+Mais moins de lib pour Vue(parce que moins mature?)
+
 __Exemple de code__
 Un peu d'improvisation sur les exemples de la doc de Vue
 
