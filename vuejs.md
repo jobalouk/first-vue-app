@@ -6,18 +6,20 @@ Les interactions entre les composants
 Hooks de cycle de vie d’une instance
 Différentes instances de Vue?
 Un aperçu de vuex (pas le temps d'essayer)
+__Un peu  plus de context dans la définition de reactif dans le cas de React
+et Vue__
 
 Tester tout ce qui est testable pendant la pres dans ma petite app de présentation
 
-quote from moi-même :
-l'expérience de dév a l'air plus fraiche sur vue que react, c'est chiant de devoir se demander quel composant va être re render ou pas avec react
-
-Potentionelle conclusion :
 Ajouter une slide sur l'histoire des deux projets
 Facebook vs Evan You (dév indépendant d'origin chinoise)
 
 L'importance de sa simplicité : un fichier avec son html, son css et son js.
 Mais moins de lib pour Vue(parce que moins mature?)
+
+Petite phrase de conclusion:
+l'expérience de dév a l'air plus fraiche sur vue que react, c'est chiant de devoir se demander quel composant va être re render ou pas avec react
+
 
 __Exemple de code__
 Un peu d'improvisation sur les exemples de la doc de Vue
