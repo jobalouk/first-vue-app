@@ -7,8 +7,8 @@ Les interactions entre les composants
 Hooks de cycle de vie d’une instance
 Différentes instances de Vue?
 Un aperçu de vuex (pas le temps d'essayer)
-__Un peu  plus de context dans la définition de reactif dans le cas de React
-et Vue__
+
+__Une définition de reactif pour React et Vue__
 
 Tester tout ce qui est testable pendant la pres dans ma petite app de présentation
 
@@ -23,6 +23,7 @@ l'expérience de dév a l'air plus fraiche sur vue que react, c'est chiant de de
 
 
 __Exemple de code__
+
 Un peu d'improvisation sur les exemples de la doc de Vue
 
 https://vuejs.org/v2/examples/
@@ -36,19 +37,23 @@ https://fr.vuejs.org/v2/guide/reactivity.html
 
 
 __Points communs__
+
 Les utilisent un DOM VIRTUEL
 Fournissent des composants de vue réactifs et composables
 Restent concentrés sur le cœur de la bibliothèque en déléguant le routage et la gestion d’état à des bibliothèques connexes
 
 __Truc que je peux montrer/parler__
+
 * Montrer le CLI avec ses opts
 * Cloner un projet que j'ai fait
 * Montrer mon projet
 
 __La réactivité dans Vue.js__
+
 Un peu de détail sur la réactivé dans vuejs
 
-__La base__ une instance de vue avec ses opts
+__La base__ 
+* une instance de vue avec ses opts
 * création local
 * création global
 * composant mono fichier
@@ -56,6 +61,7 @@ __La base__ une instance de vue avec ses opts
 
 
 __Détails sur data__
+
 La single source of truth d'un composant dans Vue -> `data`
 
 `data` est une fonction quand on crée un composant monofichier...
@@ -65,10 +71,12 @@ La propriété du composant `data` doit être une fonction, afin que chaque inst
 ### Optimisation
 
 __React__
+
 Utiliser `shouldComponentUpdate()` présupposent que le rendu d'un composant soit déterminé par les props
 
 
 __Vue__
+
 Au rendu les dépendances d'un composant sont tracées, Vue sait quels sont les composants qui ont besoin d'être update.
 Chaque composant peut être considéré comme ayant déjà `shouldComponentUpdate`(??)
 * data
@@ -81,12 +89,14 @@ Chaque composant peut être considéré comme ayant déjà `shouldComponentUpdat
 ### CSS à portée limitée au composant
 
 __React__
+
 Limiter la portée du css Dans React est souvent fait par des solutions
 CSS-IN-JS.
 Trade-off: un bundle plus lourd mais une expérience de dév bien meilleur.
 
 
 __Vue__
+
 `scoped` encapsule automatiquement ce CSS dans votre composant en ajoutant un unique attribut.
 
 
