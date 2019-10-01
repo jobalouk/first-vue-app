@@ -1,6 +1,7 @@
 Vuejs
 
 __Plus de contenu__
+
 Les mixins
 Les interactions entre les composants
 Hooks de cycle de vie d’une instance
