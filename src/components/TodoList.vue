@@ -11,6 +11,7 @@
         :key="todo.id"
         :todo="todo"
         @remove="removeTodo"
+        @edit="editItem"
       />
     </ul>
     <p v-else>
@@ -27,27 +28,30 @@
 
   export default {
     components: {
-      BaseInputText, TodoListItem
+      BaseInputText,
+      TodoListItem,
     },
-    data () {
+    data() {
       return {
         newTodoText: '',
         todos: [
           {
               id: nextTodoId++,
               text: 'Learn Vue',
+              edit: false,
           },
           {
               id: nextTodoId++,
               text: 'Learn about single-file components',
+              edit: false,
           },
         ]
       }
     },
     methods: {
-      addTodo () {
+      addTodo() {
         const trimmedText = this.newTodoText.trim()
-        if (trimmedText) {
+        if(trimmedText) {
           this.todos.push({
             id: nextTodoId++,
             text: trimmedText
@@ -55,10 +59,14 @@
           this.newTodoText = ''
         }
       },
-      removeTodo (idToRemove) {
+      removeTodo(idToRemove) {
         this.todos = this.todos.filter(todo => {
           return todo.id !== idToRemove
         })
+      },
+      editItem(item) {
+        this.copyItem = {...item}
+        item.edit = true
       }
     }
   }
