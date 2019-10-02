@@ -21,6 +21,17 @@ Mais moins de lib pour Vue(parce que moins mature?)
 Petite phrase de conclusion:
 l'expérience de dév a l'air plus fraiche sur vue que react, c'est chiant de devoir se demander quel composant va être re render ou pas avec react
 
+Quelque chiffres
+https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190
+Vue github stars 149000
+React github stars 137000
+
+Développé par qui ?
+Développé pour quoi ?
+
+React vs Vuejs
+
+
 
 __Exemple de code__
 
