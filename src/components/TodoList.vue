@@ -12,6 +12,7 @@
         :todo="todo"
         @remove="removeTodo"
         @edit="editItem"
+        @doneEdit="doneEdit"
       />
     </ul>
     <p v-else>
@@ -65,8 +66,10 @@
         })
       },
       editItem(item) {
-        this.copyItem = {...item}
         item.edit = true
+      },
+      doneEdit(text) {
+        console.log('todo item', text);
       }
     }
   }

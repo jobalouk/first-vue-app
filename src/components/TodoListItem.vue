@@ -1,7 +1,12 @@
 <template>
   <li>
     <span v-show="!todo.edit">{{ todo.text }}</span>
-    <input type="text" v-show="todo.edit" v-model="todo.text" />
+    <input
+      type="text"
+      v-show="todo.edit"
+      v-model="todo.text"
+      @keyup.enter="$emit('doneEdit', todo.text)"
+    />
     <button @click="$emit('remove', todo.id)">
       X
     </button>
