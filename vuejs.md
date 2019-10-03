@@ -1,18 +1,20 @@
 Vuejs
 
-Propriété calculée:
-Logique sur des datas qu'on ne veut pas faire dans la vue
-exemple(muter une chaine de caractère)
 
-Methods vs computed
+__Methods vs propriété calculée__
+https://fr.vuejs.org/v2/guide/computed.html
+
+method a besoin d'être appelé l'autre non
 les propriétés déclarées dans computed sont mises en cache selon leurs dépendances
 
 Vuejs te propose de mettre en cache des propriétés par défaut
 React permet de memoize par défaut ?
 
-Les propriétés watch. Quand vous avez des données qu’il faut changer selon d’autres données.
-La doc dit de ne pas en abuser...
-*voir avec ben si ça veut du détail*
+
+__Observateur__
+`watch`
+Utile pour les sideeffect
+https://fr.vuejs.org/v2/guide/computed.html#Exemple-basique
 
 
 
